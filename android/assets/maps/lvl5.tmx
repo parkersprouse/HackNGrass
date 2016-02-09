@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="33" height="33" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="tileset" tilewidth="128" tileheight="128">
+  <image source="tileset.png" width="1536" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="wallEndTop"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="name" value="wallEndBottom"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="name" value="tLeft"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="single"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="name" value="postL"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="name" value="portal"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="name" value="mazeTR"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="name" value="mazeBR"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="name" value="fenceL"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="name" value="fenceT"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="name" value="postEndLeft"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="name" value="cornerBR"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="name" value="wallEndRight"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="name" value="tTop"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="name" value="tBottom"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="name" value="rock"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="name" value="postT"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="name" value="player"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="name" value="mazeTL"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="name" value="mazeBL"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="name" value="cornerTR"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="name" value="fenceB"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="name" value="cornerBL"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="name" value="bg"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="name" value="wallEndLeft"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="name" value="tRight"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="name" value="snake"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="name" value="postR"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="name" value="postB"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="name" value="mazeV"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="name" value="mazeH"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="name" value="fenceR"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="name" value="cornerTL"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="name" value="postEndRight"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="name" value="double"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="name" value="switch"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="name" value="hole"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="name" value="trigger1"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="name" value="trigger2"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="name" value="trigger3"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="name" value="trigger4"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="name" value="trigger5"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="name" value="trigger6"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="name" value="hiddenSwitch"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="33" height="33">
+  <data encoding="base64" compression="zlib">
+   eJy9V8tOAzEMzKFFKiBYkIBDoDy0/P8vEkuNZA2OX5vuYaRmk7Wn9tjOfpdSbhmedl6/NJwaDg4sznMV1mfl3NrwBRzQD9rzcNI4LAKQgxeL8LsWm4ME4nCclINoLjreL3HQYu71leXQc/Ep4HHwPIoHZa8WXQ/nRB4yIA5dD+jPiiHG3lsnIz1442D5y2ia56LCe1jXs2KPtjiHrB74mUx9EQfSwyrY8OphK7oeojXlQYX1qNa1XMwGj2ufV5YeDvCOR5/a3ii3xOHotDErDjjvRv1hpO9IH9LmBt/z5mK2HjAXo7rwzC3UfmZ2EQft/rBHj9DmhcTB0my2T54U+1vi4K1hzkGLQ7ROInEiDiM94Oy8th5WxpP/tz049Fxk7oLRmr3mzPJqwjsvLB+Z2uMclvKfs9Qfon7wOwvRn0u9JvqtF61D655O3H6DHLZC4nBz4fDW8MrwYawJd8zmM/PxI5y17N03/AHAcC0E
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="33" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzt1MsJADAIBFGryaf/BlOBB0PILjjv6GkQNKK3oQ4AcMXhdh0afpvqgMaWOgBS3B5Qt5M5//S9bNeAowPz8QFj
+  </data>
+ </layer>
+</map>

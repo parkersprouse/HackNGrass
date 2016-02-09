@@ -1,0 +1,53 @@
+skin.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn
+  rotate: false
+  xy: 508, 2
+  size: 150, 45
+  orig: 150, 45
+  offset: 0, 0
+  index: -1
+slider
+  rotate: false
+  xy: 660, 2
+  size: 200, 12
+  orig: 200, 12
+  offset: 0, 0
+  index: -1
+btnDown
+  rotate: false
+  xy: 356, 2
+  size: 150, 45
+  orig: 150, 45
+  offset: 0, 0
+  index: -1
+slider-knob
+  rotate: false
+  xy: 664, 16
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+textCursor
+  rotate: false
+  xy: 660, 16
+  size: 2, 29
+  orig: 2, 29
+  offset: 0, 0
+  index: -1
+textField
+  rotate: false
+  xy: 2, 2
+  size: 200, 45
+  orig: 200, 45
+  offset: 0, 0
+  index: -1
+btnHover
+  rotate: false
+  xy: 204, 2
+  size: 150, 45
+  orig: 150, 45
+  offset: 0, 0
+  index: -1
