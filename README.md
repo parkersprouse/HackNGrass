@@ -9,4 +9,4 @@ Biggest known bug: Sometimes stepping on a button will not open the door that it
 - Berkley Bristow - Artist
 
 
-Most recent build: [Download](http://parkersprouse.me/games/hng/build/HackNGrass.jar)
+Most recent build: [Download](https://github.com/parkersprouse/HackNGrass/releases/tag/v0.1-alpha)
